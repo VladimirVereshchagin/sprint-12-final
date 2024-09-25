@@ -1,0 +1,42 @@
+# Директории и файлы Go
+/bin/
+/pkg/
+/coverage.out
+
+# Логи и временные файлы
+*.log
+*.tmp
+*.out
+*.lock
+
+# IDE и редакторы
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Системные файлы macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Кэш браузеров
+*.css.map
+*.js.map
+
+# Файлы конфигурации и секреты
+.env
+*.env.*
+*.key
+*.pem
+
+# Docker
+docker-compose.override.yml
+docker-compose.debug.yml
+*.env.docker
+Dockerfile.local
+
+# Temporary and backup files
+*~
+#*
+!*/
