@@ -3,8 +3,8 @@ module github.com/VladimirVereshchagin/sprint-12-final
 go 1.22.1
 
 require (
-	github.com/stretchr/testify v1.9.0
-	modernc.org/sqlite v1.33.1
+	github.com/stretchr/testify v1.10.0
+	modernc.org/sqlite v1.34.1
 )
 
 require (
